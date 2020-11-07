@@ -129,9 +129,9 @@ for i in lb:
 import math
 
 a = 10.4
-math.ceil(a)
-math.floor(a)
-
-
+b =math.ceil(a)
+c =math.floor(a)
+type(b)
+type(c)
 
 
