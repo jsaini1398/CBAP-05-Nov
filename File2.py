@@ -73,6 +73,13 @@ lbr
 
 
 
+lm1=[1,2,3]
+lm2=[3,4,5]
+
+lm3 = lm1+lm2
+
+
+
 
 # Mutable or Changeble
 print (lb)
@@ -360,6 +367,12 @@ stud['name']
 
 car = {'brand':'Honda', 'model':'Jazz', 'year': 2020}
 
+car['model'] =''
+
+car.update({'year':2030,'model':'Jazz1', 'mod':True })
+
+car
+
 #Access
 car['brand']
 
@@ -474,6 +487,7 @@ car = {
   "model": "Mustang",
   "year": 1964
 }
+
 
 x = car.setdefault("color", "white")
 
